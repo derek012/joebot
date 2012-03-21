@@ -15,7 +15,7 @@ public class Autonomous extends CommandGroup {
 
     public static final double FENDER_DEPTH = 38.5;
 
-    public static final double CONVEY_AUTO_TIME = 4;
+    public static final double CONVEY_AUTO_TIME = 6;
 
 
 
@@ -27,10 +27,10 @@ public class Autonomous extends CommandGroup {
     
     // distance is ~50" or ~4', rate is ~10 ft/s. Time is 0.4s, Your Mileage May Vary
     //public static final double t_farKeyToBridge = 0.75;
-    public static final double t_farKeyToBridge = 2.0; // lower speed, try this (untested)
+    public static final double t_farKeyToBridge = 2.7; // lower speed, try this (untested)
 
     // distance is ~136" or ~12', rate is 10 ft/s. Time is 1.2s, Your Mileage May Vary
-    public static final double t_closeKeyToBridge = 3.0;  // lower speed, try this (untested)
+    public static final double t_closeKeyToBridge = 5.0;  // lower speed, try this (untested)
 
 
     public Autonomous() {
